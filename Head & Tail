@@ -1,0 +1,9 @@
+import random
+
+while True:
+    user = input("Press Enter to flip the coin (or type q to quit): ")
+    if user.lower() == "q":
+        print("Game Over 👋")
+        break
+    coin = random.choice(["Head", "Tail"])
+    print("Result:", coin)
